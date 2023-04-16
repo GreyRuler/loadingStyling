@@ -52,6 +52,9 @@
 	"dependencies": {
 		"bootstrap": "^5.2.3",
 		"core-js": "^3.25.2",
-		"rxjs": "^7.8.0"
+		"rxjs": "^7.8.0",
+		"workbox-precaching": "^6.5.4",
+		"workbox-routing": "^6.5.4",
+		"workbox-strategies": "^6.5.4"
 	}
 }
