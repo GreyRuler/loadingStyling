@@ -5622,8 +5622,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // eslint-disable-next-line no-restricted-globals
-(0,workbox_precaching__WEBPACK_IMPORTED_MODULE_1__.precacheAndRoute)([{'revision':'6c13272833093a064ce9fda6702f4e31','url':'./index.html'},{'revision':'b924e16f0845c99d693a8d10628ff243','url':'index.css'},{'revision':'1c769379823558e4a011b95214fffe52','url':'index.js'}]);
-(0,workbox_routing__WEBPACK_IMPORTED_MODULE_0__.registerRoute)('http://localhost:9090/news', new workbox_strategies__WEBPACK_IMPORTED_MODULE_2__.NetworkFirst({
+(0,workbox_precaching__WEBPACK_IMPORTED_MODULE_1__.precacheAndRoute)([{'revision':'6c13272833093a064ce9fda6702f4e31','url':'./index.html'},{'revision':'b924e16f0845c99d693a8d10628ff243','url':'index.css'},{'revision':'4943e888a7daf3284adbd72e6d74e6c8','url':'index.js'}]);
+(0,workbox_routing__WEBPACK_IMPORTED_MODULE_0__.registerRoute)('https://loadingstyling.onrender.com/news', new workbox_strategies__WEBPACK_IMPORTED_MODULE_2__.NetworkFirst({
   cacheName: 'news'
 }));
 }();

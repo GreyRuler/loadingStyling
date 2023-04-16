@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": function() { return /* binding */ News; }
 /* harmony export */ });
 class News {
-  static URL = 'http://172.19.101.112:3000';
+  static URL = 'https://loadingstyling.onrender.com';
   static async list(callback, callbackOffline) {
     if (navigator.onLine) {
       const response = await fetch(`${this.URL}/news`);
