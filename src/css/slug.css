@@ -1,0 +1,40 @@
+/*.news-container > *:not(:last-child) {*/
+/*	margin-bottom: 1rem;*/
+/*}*/
+
+.new {
+	margin-bottom: 1rem;
+}
+
+.new .title {
+	margin-bottom: .5rem;
+}
+
+.new .preview {
+	flex: 1 0 auto;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-right: 1rem;
+	border-radius: 50%;
+}
+
+.new .content {
+	width: 100%;
+}
+
+.slug .title {
+	width: 30%;
+	height: 1rem;
+	background-color: grey;
+}
+
+.slug .preview {
+	background-color: grey;
+	border-radius: 0;
+}
+
+.slug .content {
+	height: 2.5rem;
+	border-top: 1rem solid grey;
+	border-bottom: 1rem solid grey;
+}
