@@ -5,7 +5,7 @@ import { NetworkFirst } from 'workbox-strategies';
 // eslint-disable-next-line no-restricted-globals
 precacheAndRoute(self.__WB_MANIFEST);
 registerRoute(
-	'http://localhost:9090/news',
+	'https://loadingstyling.onrender.com/news',
 	new NetworkFirst({
 		cacheName: 'news',
 	}),

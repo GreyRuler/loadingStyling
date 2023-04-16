@@ -1,5 +1,5 @@
 export default class News {
-	static URL = 'http://172.19.101.112:3000';
+	static URL = 'https://loadingstyling.onrender.com';
 
 	static async list(callback, callbackOffline) {
 		if (navigator.onLine) {
